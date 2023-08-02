@@ -3,7 +3,7 @@
 /**
  *_print_rev_recursion - prints a stringon reverse
  *@s: string
- i*
+ *
  */
 void _print_rev_recursion(char *s)
 {
@@ -11,5 +11,5 @@ void _print_rev_recursion(char *s)
 	{
 		_print_rev_recursion(s + 1);
 		_putchar(*s);
-	}	
+	}
 }
