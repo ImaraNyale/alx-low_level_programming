@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *create_array - function prints a string
+ *create_array - function creates a string
  *@size: string size
  *@c: char to assign
  *Return: NULL if fail/pointer if success
