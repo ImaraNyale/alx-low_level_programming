@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _print_rev_recursion: function prints string in reverse
  * @s: string to be printed
@@ -8,10 +8,15 @@
 
 void _print_rev_recursion(char *s)
 {
-	for (s = 0 : str[s] != '\0' : s++)
-		count++;
+	if (*s)
 	{
-		for (s = count++ ; s != 0 ; s--)
-			_putchar(str[s]);
+		s++;
+		_print_rev_recursion(s);
+		s--;
+		putchar(*s);
+
 	}
-}	
+
+	else
+		return;
+}
