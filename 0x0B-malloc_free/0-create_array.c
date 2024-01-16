@@ -1,6 +1,6 @@
 #include <stdlib.h>
 /*
- **create_array - function creates string
+ * create_array - function creates string
  *@size: size of the string
  *@c: char to assign
  *Return: NULL iffail/pointer if success
