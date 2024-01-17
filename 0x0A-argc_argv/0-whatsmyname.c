@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
- * main - prints program namr
+ * main - main function prints program name
  * @argc: number of arguments
  * @argv: array of arguments
  * Return: Always 0 (Success)
