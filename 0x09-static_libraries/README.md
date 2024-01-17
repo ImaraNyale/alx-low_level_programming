@@ -1,0 +1,1 @@
+creating astatic library
