@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * malloc_checked - function that allocates memory using malloc
- *@b: size of memory to be allocated
+ *@t: size of memory to be allocated
  *Return: ptr (Success)
  */
 void *malloc_checked(unsigned int t)
